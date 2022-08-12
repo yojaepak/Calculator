@@ -1,5 +1,5 @@
 body {
-    background-color: #555b6e;
+    background-color: #78C0E0;
 }
 
 .flex_container {
@@ -14,5 +14,29 @@ body {
     margin-top: 50px;
     width: 400px;
     height: 600px;
-    background-color: #89b0ae;
+    background-color: #449DD1;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.output{
+    width: 365px;
+    height: 140px;
+    margin: 10px;
+    background-color: black;
+}
+
+.input {
+    width: 100px;
+    height: 100px;
+    background-color: #150578;
 }

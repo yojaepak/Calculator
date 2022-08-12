@@ -16,15 +16,18 @@ function divide(inputOne, inputTwo){
 
 function operate(inputOne, inputTwo, operator){
     if (operator === "+"){
-        add(inputOne,inputTwo);
+        return add(inputOne,inputTwo);
     }
     else if (operator === "-"){
-        subtract(inputOne, inputTwo);
+        return subtract(inputOne, inputTwo);
     }
     else if (operator === "*"){
-        multiply(inputOne, inputTwo);
+        return multiply(inputOne, inputTwo);
     }
     else if (operator === "/"){
-        divide(inputOne, inputTwo);
+        return divide(inputOne, inputTwo);
     }
 }
+
+
+console.log(operate(10,3,"-"));
